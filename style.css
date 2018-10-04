@@ -1,0 +1,56 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1529170788652-ce82652b5148?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a2c7f35a8bbb81a645be31eaa9c6aefa&auto=format&fit=crop&w=1950&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+}
+
+.top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 25px;
+  display: flex;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.5)
+}
+
+.left {
+  flex: 10 auto;
+  text-align: left;
+}
+
+.right {
+  flex: 11 auto;
+  text-align: right;
+}
+
+.time {
+  font-size: 200px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.greeting {
+  font-size: 80px;
+  font-weight: 400;
+  margin: 0;
+}
